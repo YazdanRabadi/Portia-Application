@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yazdan-Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title2_text">Current Temperature</string>
+
+    <string name="city_name1">Ottawa</string>
+    <string name="city_name2">Toronto</string>
+    <string name="city_name3">Montreal</string>
+    <string name="city_name4">Calgary</string>
+    <string name="city_name5">Vancouver</string>
+    <string name="city_name6">Halifax</string>
+
+    <string name="city_temp1">-</string>
+    <string name="city_temp2">-</string>
+    <string name="city_temp3">-</string>
+    <string name="city_temp4">-</string>
+    <string name="city_temp5">-</string>
+    <string name="city_temp6">-</string>
+
+</resources>

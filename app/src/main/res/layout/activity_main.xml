@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/cityscape_23"
+    android:scaleType="centerCrop">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title2_text"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:singleLine="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:autoText="true"
+        android:background="@mipmap/title_2" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_temp1"
+        android:id="@+id/cityTemp1"
+        android:layout_below="@+id/space2"
+        android:layout_toStartOf="@+id/textView2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_name1"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/cityTemp1"
+        android:layout_toEndOf="@+id/cityTemp1" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_temp2"
+        android:id="@+id/cityTemp2"
+        android:layout_below="@+id/cityTemp1"
+        android:layout_toStartOf="@+id/textView2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_temp3"
+        android:id="@+id/cityTemp3"
+        android:layout_below="@+id/cityTemp2"
+        android:layout_alignLeft="@+id/cityTemp2"
+        android:layout_alignStart="@+id/cityTemp2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_name2"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/cityTemp2"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_name3"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/cityTemp2"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_temp4"
+        android:id="@+id/cityTemp4"
+        android:layout_below="@+id/cityTemp3"
+        android:layout_alignRight="@+id/cityTemp3"
+        android:layout_alignEnd="@+id/cityTemp3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_name4"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/cityTemp4"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_temp5"
+        android:id="@+id/cityTemp5"
+        android:layout_below="@+id/cityTemp4"
+        android:layout_alignLeft="@+id/cityTemp4"
+        android:layout_alignStart="@+id/cityTemp4"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_name5"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/cityTemp4"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_temp6"
+        android:id="@+id/cityTemp6"
+        android:layout_below="@+id/cityTemp5"
+        android:layout_toLeftOf="@+id/textView7"
+        android:layout_toStartOf="@+id/textView7"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/city_name6"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/cityTemp6"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:id="@+id/space" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/space"
+        android:layout_alignStart="@+id/cityTemp1"
+        android:id="@+id/space2" />
+    </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:id="@+id/button"
+        android:onClick="verifyEmailFromButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
